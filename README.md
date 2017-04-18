@@ -52,4 +52,29 @@ I plan to sort out what I learned while I was in graduate school.
     - Z^2 follows x1^2 (chisqaure distribution with 1 d.f.)
     - Z1^2 + Z2^2 follow x2^2 (d.f.=2)
 - Basic statistics for BI
-  - 
+  - P-value
+    - probability that one would observe same or more extreme observation under null hypothesis
+  - null hypthesis(H0)
+    - uninteresting situation
+  - alternative hypthesis(H1)
+    - interesting situation
+  - Easy-to-use statistic's properties
+    - designed to be zero for H0, and non-zero for H1
+    - it follows a known distribution (normal, t, ..) under H0
+    - z-score
+      - if a static follows (N0,1) under H0
+  - Central limit theorem
+    - sample is large --> normally distributed
+    - sample is small --> often follow t-distribution
+  - Normal vs chisquare distribution
+    - z follows N(0,1) --> z^2 follows chi-square distribution with d.f. 1
+    - pchisq(3.2^2, df=1, lower.tail=F)
+  - Statistical power
+    - chance that data will be significant if H1 is true
+    - opposite concept of P-value
+    - function of sample size, effect size
+    - 대립가설이 
+    - 대립가설이 사실임에도 
+    - 대립가설이 
+    - 대립가설이 사실임에도 불구하고 
+    - it follows a known distribution (normal, t, ..) under Hs

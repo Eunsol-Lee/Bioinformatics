@@ -73,8 +73,5 @@ I plan to sort out what I learned while I was in graduate school.
     - chance that data will be significant if H1 is true
     - opposite concept of P-value
     - function of sample size, effect size
-    - 대립가설이 
-    - 대립가설이 사실임에도 
-    - 대립가설이 
-    - 대립가설이 사실임에도 불구하고 
-    - it follows a known distribution (normal, t, ..) under Hs
+- asdfasdf
+    - 대립가설이

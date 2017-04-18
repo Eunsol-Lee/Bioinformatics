@@ -39,4 +39,17 @@ I plan to sort out what I learned while I was in graduate school.
       - *Var(X) = np(1-p)*
       - *SD(X)= sqrt(np(1 - p))*
   - Normal distribution
-    - 
+    - *N(µ, s(sigma)^2)*
+  - Standard normal distribution
+    - N(0, 1)
+    - Z
+  - t-distribution
+    - looks like normal, but slightly thicker tail than normal
+    - occurs when you estimate mean and variance of distribution from data
+    - degree of freedom depends on sample size of estimation
+    - when d.f. is large, t converges to normal
+  - Chi-square distribution
+    - Z^2 follows x1^2 (chisqaure distribution with 1 d.f.)
+    - Z1^2 + Z2^2 follow x2^2 (d.f.=2)
+- Basic statistics for BI
+  - 

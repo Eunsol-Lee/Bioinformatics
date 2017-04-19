@@ -26,14 +26,14 @@ I plan to sort out what I learned while I was in graduate school.
       - mean of random variable x
       - E(X) = µ
     - Variance (standard deviation squared)
-      - s(sigma)^2 = Var(x) = E(x-µ)^2 
+      - s(sigma)^2 = Var(x) = E(x-µ)^2
       - expected (or average) squared distance (or deviation) from mean
       - Var(X) = s(sigma)^2
       - SD(X) = s(sigma)
   - Binomial probability distribution
     - n: observation
     - binary outcome
-    - constant probability for each observation 
+    - constant probability for each observation
     - *X ~ Binom(n, p)*
       - *E(X) = np*
       - *Var(X) = np(1-p)*
@@ -73,5 +73,21 @@ I plan to sort out what I learned while I was in graduate school.
     - chance that data will be significant if H1 is true
     - opposite concept of P-value
     - function of sample size, effect size
-- asdfasdf
-    - 대립가설이
+    - 대립가설이 사실임에도 불구하고 귀무가설을 채택할 확률: 2종 오류(β error)
+    - statistical power = 1 - β
+  - Permutation test
+    - repeatedly shuffle data to impose null hypothesis
+    - useful if statistic doesn't have known distribution, or if sample size is too small for CLT to work
+  - 2x2 table analysis
+    - chi-square test formula
+    - Fisher's exact test
+  - t-test
+  - ANOVA
+    - Analysis of Variance
+    - If means of >2 groups are equal
+    - follows F-distribution
+  - Log-rank test
+    - for survival analysis
+    - Kaplan-Meier curve (Visualization)
+  - Linear regression
+  - Logistic regression
